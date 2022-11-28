@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Impressão de valores em ordem decrescente e números Pares</h1>
+    <div id="esse"></div>
+    <script>
+        resultado = ""; //A varável recebe "" espaço vazio.
+
+       for (let pares = 102; pares >= 1;) { //loop, variável começa com 102 até, maior ou igual a 1.
+        pares = pares - 2;   //Subtração de 2 em 2 da variável pares que tem início = 100!
+         resultado += " </br>Os pares são: "+pares ;
+        
+       } 
+        document.getElementById("esse").innerHTML = resultado;
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma parcial</title>
+</head>
+<body>
+    <p>3 (doma do número 1 com número 2)</p>
+    <p id="resul"></p>
+    <script>
+        let soma = 3;
+        let numero = "";
+        
+    for (let r = 3; r <= 10; r++) { 
+        soma += r;
+        numero += soma + " (Soma parcial com o número"+ r+") </br>"; ;
+
+
+    document.getElementById("resul").innerHTML = numero;
+        }
+        
+    </script>
+</body>
+</html>
